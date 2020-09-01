@@ -1,10 +1,10 @@
 <!--
-theme name:     Super NES Theme
+theme name:     NES BOX Theme
 creator:		Travis Wilson (Super Retropie and Retro Gaming)
 facebook:		www.facebook.com/groups/superretropie
 twitter:		www.twitter.com/superretropie
 email:			superretropieretrogaming@gmail.com
-version         1.4
+version         1.8
 -->
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -19,7 +19,7 @@ version         1.4
         <logoAlignment>left</logoAlignment>         
         <size>1.0 0.934</size>
         <logoScale>1.5</logoScale>
-        <zIndex>3</zIndex>          
+        <zIndex>5</zIndex>          
         <logoSize>0.3 0.2</logoSize>
         <color>00000000</color>
         <maxLogoCount>3</maxLogoCount>       
@@ -30,7 +30,14 @@ version         1.4
          <size>1 1</size>
          <zIndex>2</zIndex>                 
          <path>./_inc/images/background.png</path>
-      </image>                      
+      </image>  
+      <image name="background_bottom" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>4</zIndex>                 
+         <path>./_inc/images/background_bottom.png</path>
+      </image>                   
       <text name="systemInfo">     
          <pos>0.36 0.01</pos>
          <backgroundColor>00000000</backgroundColor>

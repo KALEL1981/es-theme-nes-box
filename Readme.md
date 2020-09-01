@@ -1,4 +1,4 @@
-theme:          Super NES Theme designed by Travis Wilson (Super Retropie and Retro Gaming)
+theme:          NES BOX Theme designed by Travis Wilson (Super Retropie and Retro Gaming)
 
 facebook:		www.facebook.com/groups/superretropie
 

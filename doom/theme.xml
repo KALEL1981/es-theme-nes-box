@@ -6,6 +6,13 @@
 		<image name="logo">
 			<path>./system.png</path>
 		</image>
+		<image name="background_icon" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <zIndex>3</zIndex>                 
+         <path>./background_icon.png</path>
+      </image>
 	</view>	
 	
   	<view name="detailed, video">
