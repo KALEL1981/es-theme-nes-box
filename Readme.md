@@ -24,15 +24,6 @@ Travis Wilson ( Super Retropie and Retro Gaming ) made this theme. Not "Supreme 
 
 ------------------------------------------------------------------------------------------
 
-To change the Background Image simply change/swap the name of the image png file you want to use as your background to "background.png"
-
-Alternate Method
-
-Open the theme.xml and change line 32 "<path>./_inc/images/background.png</path>" to corespond with the image name that you would like instead. 
-Example: <path>./_inc/images/background_Megaman.png</path> instead of <path>./_inc/images/background.png</path>
-
-------------------------------------------------------------------------------------------
-
 Supported Systems and Custom Collections
 
 3do
@@ -309,6 +300,8 @@ ngp
 
 ngpc
 
+ninjagaiden
+
 odyssey2
 
 openbor
@@ -360,6 +353,8 @@ pv1000
 pv2000
 
 rampage
+
+residentevil
 
 residualvm
 
