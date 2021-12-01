@@ -1,10 +1,10 @@
 <!--
-theme name:     NES BOX Theme
-creator:		Travis Wilson (Super Retropie and Retro Gaming)
+theme name:     NES Box Theme
+creator:		Travis Wilson (Super Retro City)
 facebook:		www.facebook.com/groups/superretropie
-twitter:		www.twitter.com/superretropie
-email:			superretropieretrogaming@gmail.com
-version         1.9
+twitter:		www.twitter.com/superretrocity
+email:			superretrocity@gmail.com
+version         2.0
 -->
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -15,186 +15,248 @@ version         1.9
    <view name="system">
       <carousel name="systemcarousel">
         <type>vertical</type>
-        <pos>0.05 0.0</pos>
+        <pos>0.001 0.0</pos>
         <logoAlignment>left</logoAlignment>         
         <size>1.0 0.934</size>
-        <logoScale>1.5</logoScale>
+        <logoScale>1.6</logoScale>
         <zIndex>5</zIndex>          
         <logoSize>0.3 0.2</logoSize>
         <color>00000000</color>
         <maxLogoCount>3</maxLogoCount>       
       </carousel>
       <image name="background" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <zIndex>2</zIndex>                 
-         <path>./_inc/images/background.png</path>
+        <origin>0 0</origin>
+        <pos>0 0</pos>
+        <size>1 1</size>
+        <zIndex>2</zIndex>                 
+        <path>./_inc/images/background.png</path>
       </image>  
       <image name="background_bottom" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>
-         <zIndex>4</zIndex>                 
-         <path>./_inc/images/background_bottom.png</path>
+        <origin>0 0</origin>
+        <pos>0 0</pos>
+        <size>1 1</size>
+        <zIndex>4</zIndex>                 
+        <path>./_inc/images/background_bottom.png</path>
       </image>                   
       <text name="systemInfo">     
-         <pos>0.36 0.01</pos>
-         <backgroundColor>00000000</backgroundColor>
-         <color>ca9d5f</color>
-         <fontPath>./_inc/fonts/sans-black-cond-italic.ttf</fontPath>
-	     <fontSize>0.05</fontSize>
-         <zIndex>5</zIndex>	     
+        <pos>-0.012 0.01</pos>
+        <backgroundColor>00000000</backgroundColor>
+        <alignment>right</alignment>
+        <color>ca9d5f</color>
+        <fontPath>./_inc/fonts/sans-black-cond-italic.ttf</fontPath>
+	    <fontSize>0.05</fontSize>
+        <zIndex>5</zIndex>	     
       </text>            
    </view>
+
 </feature>
 
    <view name="system">
       <helpsystem name="help">
-         <fontPath>./_inc/fonts/sans-black-cond-italic.ttf</fontPath>
-         <fontSize>0.05</fontSize>     
-         <pos>0.01 0.948</pos>      
-         <textColor>101010</textColor>
-         <iconColor>101010</iconColor>
+        <fontPath>./_inc/fonts/sans-black-cond-italic.ttf</fontPath>
+        <fontSize>0.05</fontSize>     
+        <pos>0.01 0.946</pos>      
+        <textColor>000000</textColor>
+        <iconColor>000000</iconColor>
       </helpsystem>
    </view>  
 
    <view name="detailed,video,basic">
       <helpsystem name="help">
-         <fontPath>./_inc/fonts/sans-black-cond-italic.ttf</fontPath>
-         <fontSize>0.05</fontSize>     
-         <pos>0.01 0.948</pos>      
-         <textColor>101010</textColor>
-         <iconColor>101010</iconColor>
+        <fontPath>./_inc/fonts/sans-black-cond-italic.ttf</fontPath>
+        <fontSize>0.048</fontSize>     
+        <pos>0.01 0.947</pos>      
+        <textColor>000000</textColor>
+        <iconColor>000000</iconColor>
       </helpsystem>
    </view>  
 
    <view name="basic,detailed,video">
       <textlist name="gamelist">      
-         <selectorColor>00000000</selectorColor>
-         <selectedColor>ff3a3a</selectedColor>
-         <primaryColor>ffffff</primaryColor>
-         <secondaryColor>ca9d5f</secondaryColor>
-         <fontPath>./_inc/fonts/sans-black-cond-italic.ttf</fontPath>
-         <fontSize>0.04</fontSize>
-         <forceUppercase>1</forceUppercase>
-         <scrollSound>./_inc/sounds/Move.wav</scrollSound>
-         <zIndex>3</zIndex>                          
+        <selectorColor>00000000</selectorColor>
+        <selectedColor>ff3a3a</selectedColor>
+        <primaryColor>ffffff</primaryColor>
+        <secondaryColor>ca9d5f</secondaryColor>
+        <fontPath>./_inc/fonts/sans-black-cond-italic.ttf</fontPath>
+        <fontSize>0.04</fontSize>
+        <lineSpacing>1.2</lineSpacing>
+        <forceUppercase>1</forceUppercase>
+        <scrollSound>./_inc/sounds/move.wav</scrollSound>
+        <zIndex>3</zIndex>                          
       </textlist>
    </view> 
    
    <view name="detailed,video">
       <textlist name="gamelist">                          
-         <pos>0.025 0.025</pos>
-         <size>0.48 0.9</size>
-         <alignment>left</alignment>                       
+        <pos>0.015 0.025</pos>
+        <size>0.48 0.9</size>
+        <alignment>left</alignment>                       
       </textlist>
    </view>
    
    <view name="basic">
       <textlist name="gamelist">                          
-         <pos>0.2 0.19</pos>
-         <size>.6 0.74</size>
-         <alignment>center</alignment>                       
+        <pos>0.2 0.19</pos>
+        <size>.6 0.74</size>
+        <alignment>center</alignment>                       
       </textlist>
    </view>
    
    <view name="basic">
       <image name="background" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>        
-         <path>./_inc/images/background_basic.png</path>
-         <zIndex>1</zIndex>          
+        <origin>0 0</origin>
+        <pos>0 0</pos>
+        <size>1 1</size>        
+        <path>./_inc/images/background_basic.png</path>
+        <zIndex>1</zIndex>          
       </image>                
    </view> 
     
    <view name="detailed,video">
       <image name="background" extra="true">
-         <origin>0 0</origin>
-         <pos>0 0</pos>
-         <size>1 1</size>        
-         <path>./_inc/images/background_video.png</path>
-         <zIndex>1</zIndex>         
+        <origin>0 0</origin>
+        <pos>0 0</pos>
+        <size>1 1</size>        
+        <path>./_inc/images/background_video.png</path>
+        <zIndex>1</zIndex>         
       </image>                
    </view>     
    
    <view name="detailed">
       <image name="md_image">
-         <origin>0.5 0.5</origin>
-         <pos>0.75 0.66</pos>
-         <maxSize>0.45 0.45</maxSize>
-         <zIndex>2</zIndex>         
+        <origin>0.5 0.5</origin>
+        <pos>0.75 0.65</pos>
+        <maxSize>0.45 0.45</maxSize>
+        <zIndex>2</zIndex>         
       </image>      
    </view>
 
    <view name="video">   
       <video name="md_video">
-         <origin>0.5 0.5</origin>
-         <pos>0.748 0.65</pos>
-         <maxSize>0.43 0.43</maxSize>
-         <delay>3</delay>
-         <zIndex>2</zIndex>         
-         <showSnapshotNoVideo>true</showSnapshotNoVideo>
-         <showSnapshotDelay>true</showSnapshotDelay>
+        <origin>0.5 0.5</origin>
+        <pos>0.75 0.65</pos>
+        <maxSize>0.45 0.45</maxSize>
+        <delay>3</delay>
+        <zIndex>2</zIndex>         
+        <showSnapshotNoVideo>true</showSnapshotNoVideo>
+        <showSnapshotDelay>true</showSnapshotDelay>
       </video>             
    </view>
    
    <view name="detailed,video">
-      <text name="md_lbl_releasedate, md_lbl_players, md_lbl_rating, md_rating, md_players, md_releasedate">
-         <fontPath>./_inc/fonts/sans-black-cond-italic.ttf</fontPath>
-         <fontSize>0.034</fontSize>
+      <text name="md_lbl_rating, md_lbl_players, md_lbl_genre, md_lbl_developer, md_lbl_publisher, md_lbl_releasedate, md_lbl_playcount, md_lbl_lastplayed">
+        <origin>0.5 0.5</origin>
+        <fontPath>./_inc/fonts/sans-black-cond-italic.ttf</fontPath>
+        <color>0077ff</color>
+        <fontSize>0.034</fontSize>
+      </text>
+      <text name="md_rating, md_players, md_genre, md_developer, md_publisher, md_releasedate, md_playcount, md_lastplayed, md_description">
+        <origin>0.5 0.5</origin>
+        <fontPath>./_inc/fonts/sans-black-cond-italic.ttf</fontPath>
+        <color>ffffff</color>
+        <fontSize>0.034</fontSize>
       </text>
       <text name="md_lbl_rating">
-         <origin>0.5 0.5</origin>
-         <pos>0.850 0.35</pos>
-         <size>0.6 0.6</size>
-         <color>ffffff</color>
-         <zIndex>2</zIndex>
-      </text>   
-      <rating name="md_rating">
-         <origin>0.5 0.5</origin>       
-         <pos>0.83 0.35</pos>
-         <size>0.05 0.05</size>
-         <zIndex>2</zIndex>
-         <filledPath>./_inc/images/star_full.png</filledPath>
-         <unfilledPath>./_inc/images/star_hollow.png</unfilledPath>
+        <pos>2 2</pos>
+        <size>0 0</size>
+        <zIndex>1</zIndex>
+      </text>
+      <rating name="md_rating">       
+        <pos>2 2</pos>
+        <size>0 0</size>
+        <zIndex>1</zIndex>
       </rating>
       <text name="md_lbl_players">
-         <origin>0.5 0.5</origin>
-         <pos>0.850 0.27</pos>
-         <size>0.6 0.6</size>
-         <color>ffffff</color>
-         <zIndex>2</zIndex> 
+        <pos>2 2</pos>
+        <size>0 0</size>
+        <zIndex>1</zIndex> 
       </text>
       <text name="md_players">
-         <origin>0.5 0.5</origin>
-         <pos>0.930 0.27</pos>
-         <size>0.6 0.6</size>
-         <color>ffffff</color>
-         <zIndex>2</zIndex>
+        <pos>2 2</pos>
+        <size>0 0</size>
+        <zIndex>1</zIndex>
+      </text>
+      <text name="md_lbl_genre">      
+        <pos>2 2</pos>
+        <size>0 0</size>
+        <zIndex>1</zIndex>
+      </text>
+      <text name="md_genre">
+        <pos>2 2</pos>
+        <size>0 0</size>
+        <zIndex>1</zIndex>
+      </text>
+      <text name="md_lbl_developer">
+        <pos>0.68 0.31</pos>
+        <size>0.26 0.05</size>
+        <alignment>left</alignment>
+        <zIndex>2</zIndex> 
+      </text>
+      <text name="md_developer">
+        <pos>0.81 0.31</pos>
+        <size>0.28 0.05</size>
+        <alignment>right</alignment>
+        <zIndex>2</zIndex> 
+      </text>
+      <text name="md_lbl_publisher">
+        <pos>0.68 0.27</pos>
+        <size>0.26 0.05</size>
+        <alignment>left</alignment>
+        <zIndex>2</zIndex> 
+      </text>
+      <text name="md_publisher">
+        <pos>0.81 0.27</pos>
+        <size>0.28 0.05</size>
+        <alignment>right</alignment>
+        <zIndex>2</zIndex> 
       </text>
       <text name="md_lbl_releasedate">
-         <origin>0.5 0.5</origin>
-         <pos>0.850 0.31</pos>
-         <size>0.6 0.6</size>
-         <color>ffffff</color>
-         <zIndex>2</zIndex>                  
+        <pos>0.68 0.35</pos>
+        <size>0.26 0.05</size>
+        <alignment>left</alignment>
+        <zIndex>2</zIndex>                  
       </text>
       <datetime name="md_releasedate">
-         <origin>0.5 0.5</origin>
-         <pos>0.930 0.31</pos>
-         <size>0.6 0.6</size>
-         <color>ffffff</color>
-         <zIndex>2</zIndex>         
+        <pos>0.81 0.35</pos>
+        <size>0.28 0.05</size>
+        <alignment>right</alignment>
+        <zIndex>2</zIndex>         
       </datetime>
+      <text name="md_lbl_playcount">
+        <pos>2 2</pos>
+        <size>0 0</size>
+        <zIndex>1</zIndex>
+      </text>
+      <text name="md_playcount">
+        <pos>2 2</pos>
+        <size>0 0</size>
+        <zIndex>1</zIndex>
+      </text>
+      <text name="md_lbl_lastplayed">
+        <pos>2 2</pos>
+        <size>0 0</size>
+        <zIndex>1</zIndex>
+      </text>
+      <text name="md_lastplayed">
+        <pos>2 2</pos>
+        <size>0 0</size>
+        <zIndex>1</zIndex>
+      </text>
       <image name="md_marquee">
-         <pos>1 1</pos>
-         <origin>0.5 0.5</origin>
-         <maxSize>0.1 0.1</maxSize>
-         <zIndex>1</zIndex>         
+        <pos>2 2</pos>
+        <maxSize>0 0</maxSize>
+        <zIndex>1</zIndex>         
       </image>
-      
+      <text name="md_description">
+        <pos>2 2</pos>
+        <size>0 0</size>
+        <fontPath>./_inc/fonts/sans-black-cond-italic.ttf</fontPath>
+        <fontSize>0.026</fontSize>
+        <forceUppercase>0</forceUppercase>
+        <lineSpacing>1.6</lineSpacing>
+        <alignment>left</alignment>
+        <zIndex>1</zIndex>
+      </text>
    </view>
    
 </theme>
